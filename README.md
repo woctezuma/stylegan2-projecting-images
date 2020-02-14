@@ -8,7 +8,7 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 
 ## Results
 
-I have downloaded a picture of the French president Emmanuel Macron, then center-cropped it to 1024x1024 respolution, and finally projected it to the latent space of the StyleGAN2 model trained with configuration f on the Flickr-Faces-HQ (FFHQ) dataset.
+I have downloaded a picture of the French president Emmanuel Macron, then center-cropped it to 1024x1024 resolution, and finally projected it to the latent space of the StyleGAN2 model trained with configuration f on the Flickr-Faces-HQ (FFHQ) dataset.
 
 From left to right: the target image, the result obtained at the start of the projection, and the final result of the projection.
 
