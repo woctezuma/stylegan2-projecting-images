@@ -27,3 +27,4 @@ It is possible that the face is too small relatively to the rest of the image, c
     - [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing) then project to latent space,
     - [kreativai/stylegan2encoder](https://github.com/kreativai/stylegan2encoder): resume parameters input via CLI, automatic detection of the latest snapshot in the result folder,
     - [veqtor/stylegan2](https://github.com/veqtor/stylegan2): automatically resume from the latest snapshot,
+    - [pbaylies/stylegan2](https://github.com/pbaylies/stylegan2): merge of some improvements listed above.
