@@ -20,3 +20,7 @@ It is possible that the face is too small relatively to the rest of the image, c
 ## References
 
 -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
+-   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
+-   [My fork](https://github.com/woctezuma/stylegan2)
+-   Interesting forks:
+    - TODO
