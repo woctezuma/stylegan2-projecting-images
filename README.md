@@ -21,3 +21,4 @@ It is possible that the face is too small relatively to the rest of the image, c
 
 -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
 -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
+-   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing) before projecting to latent space.
