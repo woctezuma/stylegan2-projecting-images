@@ -72,6 +72,7 @@ From left to right: the target image, the result obtained at the start of the pr
 
 -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
 -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
+-   [Wiki: GIF editing](https://github.com/woctezuma/stylegan2-projecting-images/wiki/README)
 -   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing) before the projection.
 -   [ArtBreeder by Joel Simon](https://artbreeder.com/)
 -   Papers about discovering latent directions:
