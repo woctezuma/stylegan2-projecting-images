@@ -33,7 +33,7 @@ Finally, the pre-processed image can be projected to the latent space of the Sty
 
 ## Results
 
-NB: results are different if the code is run twice, even with if the same pre-processing is used.
+NB: results are different if the code is run twice, even if the same pre-processing is used.
 
 ### With center-cropping as sole pre-processing
 
