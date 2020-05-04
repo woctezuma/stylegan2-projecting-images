@@ -21,13 +21,13 @@ Data consists of:
 There are two possible pre-processing methods:
 -   either center-cropping (to 1024x1024 resolution) as sole pre-processing,
 
-![Center-cropping](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-crop.jpg)
+<img alt="Center-cropping" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-crop.jpg" width="250">
 
 -   or the same pre-processing as for the [FFHQ dataset]:
     1. first, an alignment based on 68 face landmarks returned by [dlib],
     2. then reproduce `recreate_aligned_images()`, as detailed in [FFHQ pre-processing code].
 
-![FFHQ pre-processing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-aligned.png)
+<img alt="FFHQ pre-processing" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-aligned.png" width="250">
 
 Finally, the pre-processed image can be projected to the latent space of the StyleGAN2 model trained with configuration f on the Flickr-Faces-HQ (FFHQ) dataset.
 
