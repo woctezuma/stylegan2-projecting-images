@@ -21,7 +21,7 @@ Data consists of:
 There are two possible pre-processing methods:
 -   either center-cropping (to 1024x1024 resolution) as sole pre-processing,
 
-![Center-cropping](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-crop.png)
+![Center-cropping](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-crop.jpg)
 
 -   or the same pre-processing as for the [FFHQ dataset]:
     1. first, an alignment based on 68 face landmarks returned by [dlib],
