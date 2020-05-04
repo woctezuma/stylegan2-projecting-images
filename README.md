@@ -40,7 +40,7 @@ From left to right: the target image, the result obtained at the start of the pr
 
 From left to right: the target image, the result obtained at the start of the projection, the intermediate results, and the final result of the projection.
 
-![Projection results (with issues) as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/resullts/results0000.png)
+![Projection results (with issues) as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0000.png)
 
 The background, the hair, the ears, and the suit are relatively well reproduced, but the face is wrong, especially the neck (in the original image) is confused with the chin (in the projected images).
 It is possible that the face is too small relatively to the rest of the image, compared to the FFHQ training dataset, hence the poor results of the projection.
@@ -57,7 +57,7 @@ From left to right: the target image, the result obtained at the start of the pr
 
 From left to right: the target image, the result obtained at the start of the projection, the intermediate results, and the final result of the projection.
 
-![Projection results as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/resullts/results0001.png)
+![Projection results as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0001.png)
 
 TODO
 
