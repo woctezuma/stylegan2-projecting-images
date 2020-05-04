@@ -16,6 +16,8 @@ Data consists of:
     - [Le Condottière](https://fr.wikipedia.org/wiki/Le_Condotti%C3%A8re_(Antonello_de_Messine)),
     - [La Jeune Fille à la perle](https://fr.wikipedia.org/wiki/La_Jeune_Fille_%C3%A0_la_perle).
 
+<img alt="Original image of the French president" src=[french-president-archive] width="250">
+
 ## Pre-processing
 
 There are two possible pre-processing methods:
