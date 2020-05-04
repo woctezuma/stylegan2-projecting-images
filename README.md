@@ -45,7 +45,7 @@ From left to right: the target image, the result obtained at the start of the pr
 
 <img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-target.png" width="250"><img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-step0200.png" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-step1000.png" width="250">
 
-From left to right: the target image, the result obtained at the start of the projection, the intermediate results, and the final result of the projection.
+From left to right: the target image, the result obtained at the start of the projection, intermediate results, and the final result.
 
 ![Projection results (with issues) as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0000.png)
 
@@ -62,11 +62,9 @@ From left to right: the target image, the result obtained at the start of the pr
 
 <img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-target.png" width="250"><img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-step0200.png" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-step1000.png" width="250">
 
-From left to right: the target image, the result obtained at the start of the projection, the intermediate results, and the final result of the projection.
+From left to right: the target image, the result obtained at the start of the projection, intermediate results, and the final result.
 
 ![Projection results as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0001.png)
-
-TODO
 
 ## References
 
