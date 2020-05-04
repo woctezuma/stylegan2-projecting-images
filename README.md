@@ -11,10 +11,10 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 Data consists of:
 -   1 picture of the French president Emmanuel Macron, found on [Nice Matin][french-president] ([archive][french-president-archive]),
 -   37 individual pictures of the French government, found on [Wikipedia][french-government] ([list][french-government-archive]),
--   3 pictures of famous paintings:
-    - 
-    - 
-    - 
+-   3 pictures of famous paintings, found on Wikipedia ([list][famous-paintings-archive]):
+    - [La Joconde](https://fr.wikipedia.org/wiki/La_Joconde), 
+    - [Le Condottière](https://fr.wikipedia.org/wiki/Le_Condotti%C3%A8re_(Antonello_de_Messine)),
+    - [La Jeune Fille à la perle](https://fr.wikipedia.org/wiki/La_Jeune_Fille_%C3%A0_la_perle).
 
 ## Pre-processing
 
@@ -78,6 +78,7 @@ TODO
 [french-president-archive]: <https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron.jpg>
 [french-government]: <https://fr.wikipedia.org/wiki/Gouvernement_%C3%89douard_Philippe_(2)#Galerie_du_gouvernement_actuel>
 [french-government-archive]: <https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/french-government-links.txt>
+[famous-paintings-archive]: <https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/famous-paintings-links.txt>
 [FFHQ dataset]: <https://github.com/NVlabs/ffhq-dataset>
 [dlib]: <http://dlib.net/face_landmark_detection.py.html>
 [FFHQ pre-processing code]: <https://github.com/NVlabs/ffhq-dataset/blob/master/download_ffhq.py>
