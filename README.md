@@ -4,7 +4,7 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 
 ## Usage
 
--   Run `stylegan2_projecting_images.ipynb`.
+-   Run [`stylegan2_projecting_images.ipynb`][stylegan2_projecting_images].
 
 ## Data
 
@@ -90,3 +90,5 @@ From left to right: the target image, the result obtained at the start of the pr
 [FFHQ dataset]: <https://github.com/NVlabs/ffhq-dataset>
 [dlib]: <http://dlib.net/face_landmark_detection.py.html>
 [FFHQ pre-processing code]: <https://github.com/NVlabs/ffhq-dataset/blob/master/download_ffhq.py>
+
+[stylegan2_projecting_images]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images.ipynb>
