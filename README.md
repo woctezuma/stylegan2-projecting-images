@@ -70,11 +70,13 @@ From left to right: the target image, the result obtained at the start of the pr
 
 ## References
 
--   [StyleGAN2](https://github.com/NVlabs/stylegan2)
--   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
--   [Wiki: GIF editing](https://github.com/woctezuma/stylegan2-projecting-images/wiki/README)
--   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing) before the projection.
--   [ArtBreeder by Joel Simon](https://artbreeder.com/)
+-   StyleGAN2:
+    -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
+    -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
+-   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing) before projection.
+-   Interesting tools:
+    -   [Wiki: GIF editing](https://github.com/woctezuma/stylegan2-projecting-images/wiki/README)
+    -   [ArtBreeder by Joel Simon](https://artbreeder.com/)
 -   Papers about discovering latent directions:
     - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.](https://github.com/genforce/interfacegan)
     - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.](https://github.com/harskish/ganspace)
