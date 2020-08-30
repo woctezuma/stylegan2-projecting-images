@@ -77,13 +77,13 @@ From left to right: the target image, the result obtained at the start of the pr
 -   Learnt [latent directions](https://github.com/a312863063/generators-with-stylegan2) for StyleGAN2
 -   Colab [user interface](https://github.com/tg-bomze/StyleGAN2-Face-Modificator) for projection and face modification along latent directions
 -   Interesting external tools:
-    -   [Wiki: GIF editing](https://github.com/woctezuma/stylegan2-projecting-images/wiki/README)
-    -   [ArtBreeder by Joel Simon](https://artbreeder.com/)
+    -   On my Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
+    -   [ArtBreeder](https://artbreeder.com/) by Joel Simon
 -   Papers about discovering latent directions:
-    - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.](https://github.com/genforce/interfacegan)
-    - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.](https://github.com/harskish/ganspace)
-    - [Pidhorskyi, S., Adjeroh, D., & Doretto, G. (2020). Adversarial Latent Autoencoders. arXiv preprint arXiv:2004.04467.](https://github.com/podgorskiy/ALAE)
-    - [Shen, Y., & Zhou, B. (2020). Closed-Form Factorization of Latent Semantics in GANs. arXiv preprint arXiv:2007.06600.](https://github.com/rosinality/stylegan2-pytorch#closed-form-factorization-httpsarxivorgabs200706600)
+    - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.][interfacegan]
+    - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.][ganspace]
+    - [Pidhorskyi, S., Adjeroh, D., & Doretto, G. (2020). Adversarial Latent Autoencoders. arXiv preprint arXiv:2004.04467.][ALAE]
+    - [Shen, Y., & Zhou, B. (2020). Closed-Form Factorization of Latent Semantics in GANs. arXiv preprint arXiv:2007.06600.][closed-form]
 
 <!-- Definitions -->
 
@@ -97,3 +97,12 @@ From left to right: the target image, the result obtained at the start of the pr
 [FFHQ pre-processing code]: <https://github.com/NVlabs/ffhq-dataset/blob/master/download_ffhq.py>
 
 [stylegan2_projecting_images]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images.ipynb>
+
+[wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
+[moviepy]: <https://github.com/Zulko/moviepy>
+[gifsicle]: <https://github.com/kohler/gifsicle>
+
+[interfacegan]: <https://github.com/genforce/interfacegan>
+[ganspace]: <https://github.com/harskish/ganspace>
+[ALAE]: <https://github.com/podgorskiy/ALAE>
+[closed-form]: <https://github.com/rosinality/stylegan2-pytorch#closed-form-factorization-httpsarxivorgabs200706600>
