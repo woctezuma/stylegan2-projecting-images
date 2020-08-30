@@ -74,6 +74,7 @@ From left to right: the target image, the result obtained at the start of the pr
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
     -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
 -   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing).
+-   [rosasalberto/StyleGAN2-TensorFlow-2.x][rosasalberto-fork]: tutorial notebooks to [generate][rosasalberto-sample-from-latents] from latent vectors and [edit][rosasalberto-edit-latents] them.
 -   Learnt [latent directions](https://github.com/a312863063/generators-with-stylegan2) for StyleGAN2
 -   Colab [user interface](https://github.com/tg-bomze/StyleGAN2-Face-Modificator) for projection and face modification along latent directions
 -   Interesting external tools:
@@ -106,3 +107,7 @@ From left to right: the target image, the result obtained at the start of the pr
 [ganspace]: <https://github.com/harskish/ganspace>
 [ALAE]: <https://github.com/podgorskiy/ALAE>
 [closed-form]: <https://github.com/rosinality/stylegan2-pytorch#closed-form-factorization-httpsarxivorgabs200706600>
+
+[rosasalberto-fork]: <https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x>
+[rosasalberto-sample-from-latents]: <https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x/blob/master/example_how_to_use.ipynb>
+[rosasalberto-edit-latents]: <https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x/blob/master/example_latent_changes.ipynb>
