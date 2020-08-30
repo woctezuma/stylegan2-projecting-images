@@ -74,13 +74,16 @@ From left to right: the target image, the result obtained at the start of the pr
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
     -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
 -   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing).
--   Interesting tools:
+-   Learnt [latent directions](https://github.com/a312863063/generators-with-stylegan2) for StyleGAN2
+-   Colab [user interface](https://github.com/tg-bomze/StyleGAN2-Face-Modificator) for projection and face modification along latent directions
+-   Interesting external tools:
     -   [Wiki: GIF editing](https://github.com/woctezuma/stylegan2-projecting-images/wiki/README)
     -   [ArtBreeder by Joel Simon](https://artbreeder.com/)
 -   Papers about discovering latent directions:
     - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.](https://github.com/genforce/interfacegan)
     - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.](https://github.com/harskish/ganspace)
     - [Pidhorskyi, S., Adjeroh, D., & Doretto, G. (2020). Adversarial Latent Autoencoders. arXiv preprint arXiv:2004.04467.](https://github.com/podgorskiy/ALAE)
+    - [Shen, Y., & Zhou, B. (2020). Closed-Form Factorization of Latent Semantics in GANs. arXiv preprint arXiv:2007.06600.](https://github.com/rosinality/stylegan2-pytorch#closed-form-factorization-httpsarxivorgabs200706600)
 
 <!-- Definitions -->
 
