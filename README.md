@@ -11,9 +11,11 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 Data consists of:
 -   1 picture of the French president Emmanuel Macron, found on [Nice Matin][french-president] ([archive][french-president-archive]),
 -   37 individual pictures of the French government, found on [Wikipedia][french-government] ([list][french-government-archive]),
--   3 pictures of famous paintings, found on Wikipedia ([list][famous-paintings-archive]):
+-   5 pictures of famous paintings, found on Wikipedia ([list][famous-paintings-archive]):
     - [La Joconde](https://fr.wikipedia.org/wiki/La_Joconde), 
     - [Le Condottière](https://fr.wikipedia.org/wiki/Le_Condotti%C3%A8re_(Antonello_de_Messine)),
+    - [La Naissance de Vénus](https://fr.wikipedia.org/wiki/La_Naissance_de_V%C3%A9nus_(Botticelli)),
+    - [Ginevra de' Benci](https://fr.wikipedia.org/wiki/Portrait_de_Ginevra_de%27_Benci),
     - [La Jeune Fille à la perle](https://fr.wikipedia.org/wiki/La_Jeune_Fille_%C3%A0_la_perle).
 
 <img alt="Original image of the French president" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron.jpg" width="250">
