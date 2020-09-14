@@ -46,9 +46,12 @@ There are two possible pre-processing methods:
 
 -   or the same pre-processing as for the [FFHQ dataset]:
     1. first, an alignment based on 68 face landmarks returned by [dlib],
+
+<img alt="Face landmarks" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/face_landmarks/landmarks_macron.jpg" width="250">
+
     2. then reproduce `recreate_aligned_images()`, as detailed in [FFHQ pre-processing code].
 
-<img alt="FFHQ pre-processing" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-aligned.png" width="250">
+<img alt="FFHQ pre-processing" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-aligned.jpg" width="250">
 
 Finally, the pre-processed image can be projected to the latent space of the StyleGAN2 model trained with configuration f on the Flickr-Faces-HQ (FFHQ) dataset.
 
@@ -64,11 +67,11 @@ The result below is obtained with center-cropping as sole pre-processing, hence 
 
 From left to right: the target image, the result obtained at the start of the projection, and the final result of the projection.
 
-<img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-target.png" width="250"><img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-step0200.png" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-step1000.png" width="250">
+<img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-target.jpg" width="250"><img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00000-project-real-images/image0000-step1000.jpg" width="250">
 
 From left to right: the target image, the result obtained at the start of the projection, intermediate results, and the final result.
 
-![Projection results (with issues) as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0000.png)
+![Projection results (with issues) as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0000.jpg)
 
 The background, the hair, the ears, and the suit are relatively well reproduced, but the face is wrong, especially the neck (in the original image) is confused with the chin (in the projected images).
 It is possible that the face is too small relatively to the rest of the image, compared to the FFHQ training dataset, hence the poor results of the projection.
@@ -81,11 +84,15 @@ The result below is obtained with the same pre-processing as for the FFHQ datase
 
 From left to right: the target image, the result obtained at the start of the projection, and the final result of the projection.
 
-<img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-target.png" width="250"><img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-step0200.png" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-step1000.png" width="250">
+<img alt="Target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-target.jpg" width="250"><img alt="Projected image n°1/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-step0200.jpg" width="250"><img alt="Projected image n°5/5" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/00001-project-real-images/image0001-step1000.jpg" width="250">
 
 From left to right: the target image, the result obtained at the start of the projection, intermediate results, and the final result.
 
-![Projection results as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0001.png)
+![Projection results as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0001.jpg)
+
+### Additional projection results
+
+Additional projection results are shared on [Google Drive][additional-projection-results].
 
 ## References
 
@@ -122,6 +129,8 @@ From left to right: the target image, the result obtained at the start of the pr
 
 [stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
 [stylegan2-fork]: <https://github.com/woctezuma/stylegan2/tree/tiled-projector>
+
+[additional-projection-results]: <https://drive.google.com/drive/folders/1-3SUTqK5RpSHgCjKaDKKGpJdkB7iz2VZ?usp=sharing>
 
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
