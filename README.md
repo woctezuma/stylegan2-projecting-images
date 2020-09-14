@@ -113,24 +113,6 @@ stylegan2_projections/
 
 The extended projection allows to obtain an image closer to the target image, [at the expense of semantics][extended-projection-limitations].
 
-##### Art
-
-From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
-
-<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/29.jpg" width="250"><img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/28.jpg" width="250"><img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/41.jpg" width="250">
-
-<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/29.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/28.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/41.jpg" width="250">
-
-<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/29.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/28.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/41.jpg" width="250">
-
-From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
-
-<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/02.jpg" width="250"><img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/06.jpg" width="250">
-
-<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/02.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/06.jpg" width="250">
-
-<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/02.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/06.jpg" width="250">
-
 ##### French politicians
 
 From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
@@ -164,6 +146,24 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 <img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/05.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/18.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/30.jpg" width="250">
 
 <img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/08.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/18.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/30.jpg" width="250">
+
+##### Art
+
+From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
+
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/29.jpg" width="250"><img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/28.jpg" width="250"><img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/41.jpg" width="250">
+
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/29.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/28.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/41.jpg" width="250">
+
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/29.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/28.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/41.jpg" width="250">
+
+From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
+
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/02.jpg" width="250"><img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/06.jpg" width="250">
+
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/02.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/06.jpg" width="250">
+
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/02.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/06.jpg" width="250">
 
 ## References
 
