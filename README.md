@@ -176,6 +176,7 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 -   Minimal example [Gist][minimal-example-latent-edition] to edit latent vectors.
 -   Learnt [latent directions](https://github.com/a312863063/generators-with-stylegan2) for StyleGAN2
 -   Colab [user interface](https://github.com/tg-bomze/StyleGAN2-Face-Modificator) for projection and face modification along latent directions
+-   A blog post about editing projected images to to add a [cartoon][toonify-blog-post] effect
 -   Interesting external tools:
     -   On my Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
     -   [ArtBreeder](https://artbreeder.com/) by Joel Simon
@@ -217,6 +218,7 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
 [gifsicle]: <https://github.com/kohler/gifsicle>
+[toonify-blog-post]: <https://www.justinpinkney.com/toonify-yourself/>
 
 [interfacegan]: <https://github.com/genforce/interfacegan>
 [ganspace]: <https://github.com/harskish/ganspace>
