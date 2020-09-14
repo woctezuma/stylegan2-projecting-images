@@ -4,7 +4,24 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 
 ## Usage
 
--   Run [`stylegan2_projecting_images.ipynb`][stylegan2_projecting_images].
+To discover how to project a real image using the original StyleGAN2 implementation, run:
+-   [`stylegan2_projecting_images.ipynb`][stylegan2_projecting_images]
+
+To process the projection of **a batch** of images, using either `W(1,*)` (original) or `W(18,*)` (extended), run:
+-   [`stylegan2_projecting_images_with_my_fork.ipynb`][stylegan2_projecting_images_with_fork].
+
+For more information about `W(1,*)` and `W(18,*)`, please refer to the [the original paper][stylegan2-paper] (section 5 on page 7):
+
+> Inverting the synthesis network $g$ is an interesting problem that has many applications.
+> Manipulating a given image in the latent feature space requires finding a matching latent code $w$ for it first.
+
+The following is about `W(18,*)`:
+> Previous research suggests that instead of finding a common latent code $w$, the results improve if a separate $w$ is chosen for each layer of the generator.
+> The same approach was used in an early encoder implementation.
+
+The following is about `W(1,*)`, which is the approach used in the original implementation:
+> While extending the latent space in this fashion finds a closer match to a given image, it also enables projecting arbitrary images that should have no latent representation.
+> Instead, we concentrate on finding latent codes in the original, unextended latent space, as these correspond to images that the generator could have produced.
 
 ## Data
 
@@ -74,6 +91,7 @@ From left to right: the target image, the result obtained at the start of the pr
 
 -   StyleGAN2:
     -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
+    -   My [fork][stylegan2-fork] of StyleGAN2 to project **a batch** of images, using either `W(1,*)` or `W(18,*)`
     -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
 -   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing).
 -   [rosasalberto/StyleGAN2-TensorFlow-2.x][rosasalberto-fork]: tutorial notebooks to [generate][rosasalberto-sample-from-latents] from latent vectors and [edit][rosasalberto-edit-latents] them.
@@ -100,6 +118,10 @@ From left to right: the target image, the result obtained at the start of the pr
 [FFHQ pre-processing code]: <https://github.com/NVlabs/ffhq-dataset/blob/master/download_ffhq.py>
 
 [stylegan2_projecting_images]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images.ipynb>
+[stylegan2_projecting_images_with_fork]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images_with_my_fork.ipynb>
+
+[stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
+[stylegan2-fork]: <https://github.com/woctezuma/stylegan2/tree/tiled-projector>
 
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
