@@ -91,7 +91,9 @@ From left to right: the target image, the result obtained at the start of the pr
 
 ### Additional projection results
 
-Additional projection results are shared on [Google Drive][additional-projection-results].
+Additional projection results are shown [on the Wiki][wiki-all-the-projections].
+
+To make it easier to download them, they are also shared on [Google Drive][additional-projection-results].
 
 The directory structure is as follows:
 ```
@@ -215,6 +217,7 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 [extended-projection-limitations]: <https://github.com/rolux/stylegan2encoder/issues/21>
 [minimal-example-latent-edition]: <https://gist.github.com/woctezuma/139cedb92a94c5ef2675cc9f06851b31>
 
+[wiki-all-the-projections]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Projections>
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
 [gifsicle]: <https://github.com/kohler/gifsicle>
