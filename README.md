@@ -93,6 +93,71 @@ From left to right: the target image, the result obtained at the start of the pr
 
 Additional projection results are shared on [Google Drive][additional-projection-results].
 
+The directory structure is as follows:
+```
+stylegan2_projections/
+├ aligned_images/
+├ └ emmanuel-macron_01.png    # FFHQ-aligned image
+├ generated_images_no_tiled/  # projections with `W(18,*)`
+├ ├ emmanuel-macron_01.npy    # - latent code
+├ └ emmanuel-macron_01.png    # - projected image
+├ generated_images_tiled/     # projections with `W(1,*)`
+├ ├ emmanuel-macron_01.npy    # - latent code
+├ └ emmanuel-macron_01.png    # - projected image
+├ aligned_images.tar.gz             # folder archive
+├ generated_images_no_tiled.tar.gz  # folder archive
+└ generated_images_tiled.tar.gz     # folder archive
+```
+
+#### Extended projection
+
+The extended projection allows to obtain an image closer to the target image, [at the expense of semantics][extended-projection-limitations].
+
+##### Art
+
+From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
+
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/02.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/06.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/28.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/29.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/41.jpg" width="250">
+
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/02.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/06.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/28.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/29.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/41.jpg" width="250">
+
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/02.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/06.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/28.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/29.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/41.jpg" width="250">
+
+##### French politicians
+
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/07.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/09.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/27.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/32.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/38.jpg" width="250">
+<img alt="Aligned target image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/aligned_images/42.jpg" width="250">
+
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/07.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/09.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/27.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/32.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/38.jpg" width="250">
+<img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/42.jpg" width="250">
+
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/07.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/09.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/27.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/32.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/38.jpg" width="250">
+<img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/42.jpg" width="250">
+
 ## References
 
 -   StyleGAN2:
@@ -101,6 +166,7 @@ Additional projection results are shared on [Google Drive][additional-projection
     -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
 -   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing).
 -   [rosasalberto/StyleGAN2-TensorFlow-2.x][rosasalberto-fork]: tutorial notebooks to [generate][rosasalberto-sample-from-latents] from latent vectors and [edit][rosasalberto-edit-latents] them.
+-   Minimal example [Gist][minimal-example-latent-edition] to edit latent vectors.
 -   Learnt [latent directions](https://github.com/a312863063/generators-with-stylegan2) for StyleGAN2
 -   Colab [user interface](https://github.com/tg-bomze/StyleGAN2-Face-Modificator) for projection and face modification along latent directions
 -   Interesting external tools:
@@ -130,6 +196,8 @@ Additional projection results are shared on [Google Drive][additional-projection
 [stylegan2-fork]: <https://github.com/woctezuma/stylegan2/tree/tiled-projector>
 
 [additional-projection-results]: <https://drive.google.com/drive/folders/1-3SUTqK5RpSHgCjKaDKKGpJdkB7iz2VZ?usp=sharing>
+[extended-projection-limitations]: <https://github.com/rolux/stylegan2encoder/issues/21>
+[minimal-example-latent-edition]: <https://gist.github.com/woctezuma/139cedb92a94c5ef2675cc9f06851b31>
 
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
