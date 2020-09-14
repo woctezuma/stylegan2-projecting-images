@@ -179,6 +179,11 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 -   Interesting external tools:
     -   On my Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
     -   [ArtBreeder](https://artbreeder.com/) by Joel Simon
+-   Papers loosely relevant to image projection:
+    - [Karras, T., Laine, S., Aittala, M., Hellsten, J., Lehtinen, J., & Aila, T. (2020). Analyzing and improving the image quality of stylegan. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 8110-8119).][stylegan2-paper]
+    - [Abdal, R., Qin, Y., & Wonka, P. (2019). Image2stylegan: How to embed images into the stylegan latent space?. In Proceedings of the IEEE international conference on computer vision (pp. 4432-4441).][image2stylegan-paper]
+    - [Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4401-4410).][stylegan1-paper]
+    - [Zhang, R., Isola, P., Efros, A. A., Shechtman, E., & Wang, O. (2018). The unreasonable effectiveness of deep features as a perceptual metric. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 586-595).][lpips-paper]
 -   Papers about discovering latent directions:
     - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.][interfacegan]
     - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.][ganspace]
@@ -199,6 +204,9 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 [stylegan2_projecting_images]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images.ipynb>
 [stylegan2_projecting_images_with_fork]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images_with_my_fork.ipynb>
 
+[lpips-paper]: <https://arxiv.org/abs/1801.03924>
+[image2stylegan-paper]: <https://arxiv.org/abs/1904.03189>
+[stylegan1-paper]: <https://arxiv.org/abs/1812.04948>
 [stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
 [stylegan2-fork]: <https://github.com/woctezuma/stylegan2/tree/tiled-projector>
 
