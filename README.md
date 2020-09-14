@@ -46,10 +46,9 @@ There are two possible pre-processing methods:
 
 -   or the same pre-processing as for the [FFHQ dataset]:
     1. first, an alignment based on 68 face landmarks returned by [dlib],
+    2. then reproduce `recreate_aligned_images()`, as detailed in [FFHQ pre-processing code].
 
 <img alt="Face landmarks" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/face_landmarks/landmarks_macron.jpg" width="250">
-
-    2. then reproduce `recreate_aligned_images()`, as detailed in [FFHQ pre-processing code].
 
 <img alt="FFHQ pre-processing" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/img/emmanuel-macron-aligned.jpg" width="250">
 
