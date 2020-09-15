@@ -8,7 +8,10 @@ To discover how to project a real image using the original StyleGAN2 implementat
 -   [`stylegan2_projecting_images.ipynb`][stylegan2_projecting_images]
 
 To process the projection of **a batch** of images, using either `W(1,*)` (original) or `W(18,*)` (extended), run:
--   [`stylegan2_projecting_images_with_my_fork.ipynb`][stylegan2_projecting_images_with_fork].
+-   [`stylegan2_projecting_images_with_my_fork.ipynb`][stylegan2_projecting_images_with_fork]
+
+To edit latent vectors of projected images, run:
+-   [`stylegan2_editing_latent_vectors.ipynb`][stylegan2_editing_latent_vectors]
 
 For more information about `W(1,*)` and `W(18,*)`, please refer to the [the original paper][stylegan2-paper] (section 5 on page 7):
 
@@ -182,6 +185,7 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 
 [stylegan2_projecting_images]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images.ipynb>
 [stylegan2_projecting_images_with_fork]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_projecting_images_with_my_fork.ipynb>
+[stylegan2_editing_latent_vectors]: <https://colab.research.google.com/github/woctezuma/stylegan2-projecting-images/blob/master/stylegan2_editing_latent_vectors.ipynb>
 
 [lpips-paper]: <https://arxiv.org/abs/1801.03924>
 [image2stylegan-paper]: <https://arxiv.org/abs/1904.03189>
