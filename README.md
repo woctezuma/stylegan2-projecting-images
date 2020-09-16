@@ -234,11 +234,17 @@ The latent vector of the face whose style has to be copied is used for the remai
 
 Results are shown [on the Wiki][wiki-application-style-transfer].
 
-TODO
-
 #### With the original projection `W(1,*)`
 
+Thanks to morphing of the faces whose style is copied, style transfer can be [watched as a video][style-transfer-video-tiled].
+
+![Style Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/video_style_mixing/tiled/video_style_mixing_006.017.jpg)
+
 #### With the extended projection `W(18,*)`
+
+Thanks to morphing of the faces whose style is copied, style transfer can be [watched as a video][style-transfer-video-no-tiled].
+
+![Style Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/video_style_mixing/no_tiled/video_style_mixing_006.017.jpg)
 
 ### 3. Expression transfer
 
@@ -334,6 +340,8 @@ TODO
 
 [additional-projection-results]: <https://drive.google.com/drive/folders/1-3SUTqK5RpSHgCjKaDKKGpJdkB7iz2VZ?usp=sharing>
 [google-drive-application-results]: <https://drive.google.com/drive/folders/19bJ9ZTvFRqe2WVryChk7cr-md0_AmzpO?usp=sharing>
+[style-transfer-video-tiled]: <https://drive.google.com/file/d/1-FHJkoPe6r9MWSiBg5wKTaYrv7PUD7I3/view?usp=sharing>
+[style-transfer-video-no-tiled]: <https://drive.google.com/file/d/1-DkouQ1wKlSqvteDWiuca6GeJTp9pqJ-/view?usp=sharing>
 
 [extended-projection-limitations]: <https://github.com/rolux/stylegan2encoder/issues/21>
 [minimal-example-latent-edition]: <https://gist.github.com/woctezuma/139cedb92a94c5ef2675cc9f06851b31>
