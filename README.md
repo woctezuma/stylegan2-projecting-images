@@ -319,8 +319,8 @@ TODO
 [wiki-all-the-projections]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Projections>
 [wiki-all-the-applications]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Applications>
 [wiki-application-morphing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Morphing>
-[wiki-application-style-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Style_Transfer>
-[wiki-application-expression-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Expression_Transfer>
+[wiki-application-style-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Style-Transfer>
+[wiki-application-expression-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Expression-Transfer>
 
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
