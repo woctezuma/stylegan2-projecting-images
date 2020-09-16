@@ -57,7 +57,7 @@ There are two possible pre-processing methods:
 
 Finally, the pre-processed image can be projected to the latent space of the StyleGAN2 model trained with configuration f on the Flickr-Faces-HQ (FFHQ) dataset.
 
-## Projection results
+## Results: influence of pre-processing
 
 NB: results are different if the code is run twice, even if the same pre-processing is used.
 
@@ -92,11 +92,11 @@ From left to right: the target image, the result obtained at the start of the pr
 
 ![Projection results as PNG](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/result0001.jpg)
 
-### Additional projection results
+## Results: comparison with the extended projection
 
 For the rest of the repository, the same-preprocessing as for the FFHQ dataset is used.
 
-#### Shared data on Google Drive
+### Shared data on Google Drive
 
 Additional projection results are shown [on the Wiki][wiki-all-the-projections].
 
@@ -118,7 +118,7 @@ stylegan2_projections/
 └ generated_images_tiled.tar.gz     # folder archive
 ```
 
-#### Extended projection
+### Projection results
 
 Images below allow us to compare results obtained with the original projection `W(1,*)` and the extended projection `W(18,*)`.
 
@@ -126,7 +126,7 @@ A projected image obtained with `W(18,*)` is expected to be closer to the target
 
 If image fidelity is very important, `W(18,*)` can be run for a higher number of iterations (default is 1000 steps), but truncation might be needed for later applications.
 
-##### French politicians
+#### French politicians
 
 From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
 
@@ -144,7 +144,7 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 
 <img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/05.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/07.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/38.jpg" width="250">
 
-##### Art
+#### Art
 
 From top to bottom: aligned target image, projection with `W(1,*)`, projection with `W(18,*)`.
 
@@ -153,6 +153,107 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 <img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/29.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/28.jpg" width="250"><img alt="W1 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_tiled/41.jpg" width="250">
 
 <img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/29.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/28.jpg" width="250"><img alt="W18 projected image" src="https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/results/generated_images_no_tiled/41.jpg" width="250">
+
+## Applications
+
+In the following, we assume that real images have been projected, so that we have access to their latent codes, of shape `(1, 512)` or `(18, 512)` depending on the projection method.
+
+There are three main applications:
+1.   [morphing][wiki-application-morphing] (linear interpolation),
+2.   [style transfer][wiki-application-style-transfer] (crossover),
+3.   [expression transfer][wiki-application-expression-transfer] (adding a vector and a scaled difference vector).
+
+### Shared data on Google Drive
+
+Results corresponding to each application are:
+-   shown [on the Wiki][wiki-all-the-applications],
+-   shared on [Google Drive][google-drive-application-results].
+
+The directory structure is as follows:
+```
+stylegan2_editing/
+├ expression/                   # expression transfer
+| ├ no_tiled/                   # - `W(18,*)`
+| | └ expression_01_age.jpg     # face n°1 ; age
+| └ tiled/                      # - `W(1,*)`
+|   └ expression_01_age.jpg
+├ morphing/                     # morphing
+| ├ no_tiled/                   # - `W(18,*)`
+| | └ morphing_07_01.jpg        # face n°7 to face n°1
+| └ tiled/                      # - `W(1,*)`
+|   └ morphing_07_01.jpg
+├ style_mixing/                 # style transfer
+| ├ no_tiled/                   # - `W(18,*)`
+| | └ style_mixing_42-07-10-29-41_42-07-22-39.jpg
+| └ tiled/                      # - `W(1,*)`
+|   └ style_mixing_42-07-10-29-41_42-07-22-39.jpg
+├ video_style_mixing/           # style transfer
+| ├ no_tiled/                   # - `W(18,*)`
+| | └ video_style_mixing_000.000.jpg
+| ├ tiled/                      # - `W(1,*)`
+| | └ video_style_mixing_000.000.jpg
+| ├ no_tiled_small.mp4          # with 2 reference faces
+| ├ no_ tiled.mp4               # with 4 reference faces
+| ├ tiled_small.mp4
+| └ tiled.mp4
+├ expression_transfer.tar.gz    # folder archive
+├ morphing.tar.gz               # folder archive
+├ style_mixing.tar.gz           # folder archive
+└ video_style_mixing.tar.gz     # folder archive
+```
+
+### 1. Morphing
+
+Morphing consists in a linear interpolation between two latent vectors (two faces).
+
+Results are shown [on the Wiki][wiki-application-morphing].
+
+TODO
+
+### 2. Style transfer
+
+Style transfer consists in a crossover of latent vectors at the layer level (cf. [this piece of code][style-transfer-code]).
+
+There are 18 layers for the generator.
+The latent vector of the reference face is used for the first 7 layers.
+The latent vector of the face whose style has to be copied is used for the remaining 11 layers.
+
+Results are shown [on the Wiki][wiki-application-style-transfer].
+
+TODO
+
+### 3. Expression transfer
+
+Expression transfer consists in the addition of:
+-   a latent vector (a face),
+-   a scaled difference vector (an expression).
+
+Expressions were defined, learnt, and [shared on Github][learnt-latent-directions] by a Chinese speaker:
+1.   age
+1.   angle_horizontal
+1.   angle_pitch
+1.   beauty
+1.   emotion_angry
+1.   emotion_disgust
+1.   emotion_easy
+1.   emotion_fear
+1.   emotion_happy
+1.   emotion_sad
+1.   emotion_surprise
+1.   eyes_open
+1.   face_shape
+1.   gender
+1.   glasses
+1.   height
+1.   race_black
+1.   race_white
+1.   race_yellow
+1.   smile
+1.   width
+
+Results are shown [on the Wiki][wiki-application-expression-transfer].
+
+TODO
 
 ## References
 
@@ -207,11 +308,20 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 [colab-user-interface]: <https://github.com/tg-bomze/StyleGAN2-Face-Modificator>
 [artbreeder-website]: <https://artbreeder.com/>
 
+[style-transfer-code]: <https://github.com/NVlabs/stylegan2/blob/cec605e0834de5404d5c7e5cead7053bdd0e4dde/run_generator.py#L40>
+
 [additional-projection-results]: <https://drive.google.com/drive/folders/1-3SUTqK5RpSHgCjKaDKKGpJdkB7iz2VZ?usp=sharing>
+[google-drive-application-results]: <https://drive.google.com/drive/folders/19bJ9ZTvFRqe2WVryChk7cr-md0_AmzpO?usp=sharing>
+
 [extended-projection-limitations]: <https://github.com/rolux/stylegan2encoder/issues/21>
 [minimal-example-latent-edition]: <https://gist.github.com/woctezuma/139cedb92a94c5ef2675cc9f06851b31>
 
 [wiki-all-the-projections]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Projections>
+[wiki-all-the-applications]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Applications>
+[wiki-application-morphing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Morphing>
+[wiki-application-style-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Style_Transfer>
+[wiki-application-expression-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Expression_Transfer>
+
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
 [gifsicle]: <https://github.com/kohler/gifsicle>
