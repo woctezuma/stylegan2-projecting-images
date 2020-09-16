@@ -149,18 +149,18 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 ## References
 
 -   StyleGAN2:
-    -   [StyleGAN2](https://github.com/NVlabs/stylegan2)
+    -   [StyleGAN2][stylegan2-official-repository]
     -   My [fork][stylegan2-fork] of StyleGAN2 to project **a batch** of images, using either `W(1,*)` or `W(18,*)`
-    -   [Steam-StyleGAN2](https://github.com/woctezuma/steam-stylegan2)
--   [rolux/stylegan2encoder](https://github.com/rolux/stylegan2encoder): align faces based on detected landmarks (same as FFHQ pre-processing).
+    -   [Steam-StyleGAN2][stylegan2-applied-to-steam-banners]
+-   [rolux/stylegan2encoder][rolux-repository]: align faces based on detected landmarks (same as FFHQ pre-processing).
 -   [rosasalberto/StyleGAN2-TensorFlow-2.x][rosasalberto-fork]: tutorial notebooks to [generate][rosasalberto-sample-from-latents] from latent vectors and [edit][rosasalberto-edit-latents] them.
 -   Minimal example [Gist][minimal-example-latent-edition] to edit latent vectors.
--   Learnt [latent directions](https://github.com/a312863063/generators-with-stylegan2) for StyleGAN2
--   Colab [user interface](https://github.com/tg-bomze/StyleGAN2-Face-Modificator) for projection and face modification along latent directions
+-   Learnt [latent directions][learnt-latent-directions] for StyleGAN2
+-   Colab [user interface][colab-user-interface] for projection and face modification along latent directions
 -   A blog post about editing projected images to add a [cartoon][toonify-blog-post] effect
 -   Interesting external tools:
     -   On my Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
-    -   [ArtBreeder](https://artbreeder.com/) by Joel Simon
+    -   [ArtBreeder][artbreeder-website] by Joel Simon
 -   Papers loosely relevant to image projection:
     - [Karras, T., Laine, S., Aittala, M., Hellsten, J., Lehtinen, J., & Aila, T. (2020). Analyzing and improving the image quality of stylegan. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 8110-8119).][stylegan2-paper]
     - [Abdal, R., Qin, Y., & Wonka, P. (2019). Image2stylegan: How to embed images into the stylegan latent space?. In Proceedings of the IEEE international conference on computer vision (pp. 4432-4441).][image2stylegan-paper]
@@ -192,6 +192,13 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 [stylegan1-paper]: <https://arxiv.org/abs/1812.04948>
 [stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
 [stylegan2-fork]: <https://github.com/woctezuma/stylegan2/tree/tiled-projector>
+
+[stylegan2-official-repository]: <https://github.com/NVlabs/stylegan2>
+[stylegan2-applied-to-steam-banners]: <https://github.com/woctezuma/steam-stylegan2>
+[rolux-repository]: <https://github.com/rolux/stylegan2encoder>
+[learnt-latent-directions]: <https://github.com/a312863063/generators-with-stylegan2>
+[colab-user-interface]: <https://github.com/tg-bomze/StyleGAN2-Face-Modificator>
+[artbreeder-website]: <https://artbreeder.com/>
 
 [additional-projection-results]: <https://drive.google.com/drive/folders/1-3SUTqK5RpSHgCjKaDKKGpJdkB7iz2VZ?usp=sharing>
 [extended-projection-limitations]: <https://github.com/rolux/stylegan2encoder/issues/21>
