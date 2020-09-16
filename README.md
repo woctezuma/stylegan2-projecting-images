@@ -277,11 +277,29 @@ Expressions were defined, learnt, and [shared on Github][learnt-latent-direction
 
 Results are shown [on the Wiki][wiki-application-expression-transfer].
 
-TODO
-
 #### With the original projection `W(1,*)`
 
+- Age:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/tiled/expression_42_age.jpg)
+- Smile:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/tiled/expression_42_smile.jpg)
+
+- Age:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/tiled/expression_07_age.jpg)
+- Smile:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/tiled/expression_07_smile.jpg)
+
 #### With the extended projection `W(18,*)`
+
+- Age:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/no_tiled/expression_42_age.jpg)
+- Smile:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/no_tiled/expression_42_smile.jpg)
+
+- Age:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/no_tiled/expression_07_age.jpg)
+- Smile:
+![Expression Transfer](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/expression/no_tiled/expression_07_smile.jpg)
 
 ## References
 
