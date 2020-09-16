@@ -57,7 +57,7 @@ There are two possible pre-processing methods:
 
 Finally, the pre-processed image can be projected to the latent space of the StyleGAN2 model trained with configuration f on the Flickr-Faces-HQ (FFHQ) dataset.
 
-## Results
+## Projection results
 
 NB: results are different if the code is run twice, even if the same pre-processing is used.
 
@@ -94,6 +94,10 @@ From left to right: the target image, the result obtained at the start of the pr
 
 ### Additional projection results
 
+For the rest of the repository, the same-preprocessing as for the FFHQ dataset is used.
+
+#### Shared data on Google Drive
+
 Additional projection results are shown [on the Wiki][wiki-all-the-projections].
 
 To make it easier to download them, they are also shared on [Google Drive][additional-projection-results].
@@ -116,7 +120,11 @@ stylegan2_projections/
 
 #### Extended projection
 
-The extended projection allows to obtain an image closer to the target image, [at the expense of semantics][extended-projection-limitations].
+Images below allow us to compare results obtained with the original projection `W(1,*)` and the extended projection `W(18,*)`.
+
+A projected image obtained with `W(18,*)` is expected to be closer to the target image, [at the expense of semantics][extended-projection-limitations].
+
+If image fidelity is very important, `W(18,*)` can be run for a higher number of iterations (default is 1000 steps), but truncation might be needed for later applications.
 
 ##### French politicians
 
