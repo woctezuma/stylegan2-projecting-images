@@ -153,7 +153,6 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
     -   My [fork][stylegan2-fork] of StyleGAN2 to project **a batch** of images, using either `W(1,*)` or `W(18,*)`
     -   [Steam-StyleGAN2][stylegan2-applied-to-steam-banners]
 -   [rolux/stylegan2encoder][rolux-repository]: align faces based on detected landmarks (same as FFHQ pre-processing).
--   [rosasalberto/StyleGAN2-TensorFlow-2.x][rosasalberto-fork]: tutorial notebooks to [generate][rosasalberto-sample-from-latents] from latent vectors and [edit][rosasalberto-edit-latents] them.
 -   Minimal example [Gist][minimal-example-latent-edition] to edit latent vectors.
 -   Learnt [latent directions][learnt-latent-directions] for StyleGAN2
 -   Colab [user interface][colab-user-interface] for projection and face modification along latent directions
