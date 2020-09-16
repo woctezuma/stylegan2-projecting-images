@@ -156,10 +156,10 @@ From top to bottom: aligned target image, projection with `W(1,*)`, projection w
 -   Minimal example [Gist][minimal-example-latent-edition] to edit latent vectors.
 -   Learnt [latent directions][learnt-latent-directions] for StyleGAN2
 -   Colab [user interface][colab-user-interface] for projection and face modification along latent directions
--   A blog post about editing projected images to add a [cartoon][toonify-blog-post] effect
 -   Interesting external tools:
-    -   On my Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
     -   [ArtBreeder][artbreeder-website] by Joel Simon
+    -   A blog post about editing projected images to add a [cartoon][toonify-blog-post] effect
+    -   On my Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
 -   Papers loosely relevant to image projection:
     - [Karras, T., Laine, S., Aittala, M., Hellsten, J., Lehtinen, J., & Aila, T. (2020). Analyzing and improving the image quality of stylegan. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 8110-8119).][stylegan2-paper]
     - [Abdal, R., Qin, Y., & Wonka, P. (2019). Image2stylegan: How to embed images into the stylegan latent space?. In Proceedings of the IEEE international conference on computer vision (pp. 4432-4441).][image2stylegan-paper]
