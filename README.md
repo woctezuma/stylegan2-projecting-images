@@ -208,7 +208,21 @@ Morphing consists in a linear interpolation between two latent vectors (two face
 
 Results are shown [on the Wiki][wiki-application-morphing].
 
-TODO
+#### With the original projection `W(1,*)`
+
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/tiled/morphing_42_22.jpg)
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/tiled/morphing_42_18.jpg)
+
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/tiled/morphing_07_22.jpg)
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/tiled/morphing_07_18.jpg)
+
+#### With the extended projection `W(18,*)`
+
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/no_tiled/morphing_42_22.jpg)
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/no_tiled/morphing_42_18.jpg)
+
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/no_tiled/morphing_07_22.jpg)
+![Morphing](https://raw.githubusercontent.com/wiki/woctezuma/stylegan2-projecting-images/applications/morphing/no_tiled/morphing_07_18.jpg)
 
 ### 2. Style transfer
 
@@ -221,6 +235,10 @@ The latent vector of the face whose style has to be copied is used for the remai
 Results are shown [on the Wiki][wiki-application-style-transfer].
 
 TODO
+
+#### With the original projection `W(1,*)`
+
+#### With the extended projection `W(18,*)`
 
 ### 3. Expression transfer
 
@@ -254,6 +272,10 @@ Expressions were defined, learnt, and [shared on Github][learnt-latent-direction
 Results are shown [on the Wiki][wiki-application-expression-transfer].
 
 TODO
+
+#### With the original projection `W(1,*)`
+
+#### With the extended projection `W(18,*)`
 
 ## References
 
