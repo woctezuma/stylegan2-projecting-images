@@ -320,11 +320,6 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
     - [Abdal, R., Qin, Y., & Wonka, P. (2019). Image2stylegan: How to embed images into the stylegan latent space?. In Proceedings of the IEEE international conference on computer vision (pp. 4432-4441).][image2stylegan-paper]
     - [Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4401-4410).][stylegan1-paper]
     - [Zhang, R., Isola, P., Efros, A. A., Shechtman, E., & Wang, O. (2018). The unreasonable effectiveness of deep features as a perceptual metric. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 586-595).][lpips-paper]
--   Papers about discovering latent directions:
-    - [Shen, Y., Gu, J., Tang, X., & Zhou, B. (2019). Interpreting the latent space of gans for semantic face editing. arXiv preprint arXiv:1907.10786.][interfacegan]
-    - [Härkönen, E., Hertzmann, A., Lehtinen, J., & Paris, S. (2020). GANSpace: Discovering Interpretable GAN Controls. arXiv preprint arXiv:2004.02546.][ganspace]
-    - [Pidhorskyi, S., Adjeroh, D., & Doretto, G. (2020). Adversarial Latent Autoencoders. arXiv preprint arXiv:2004.04467.][ALAE]
-    - [Shen, Y., & Zhou, B. (2020). Closed-Form Factorization of Latent Semantics in GANs. arXiv preprint arXiv:2007.06600.][closed-form]
 
 <!-- Definitions -->
 
