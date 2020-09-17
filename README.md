@@ -305,21 +305,22 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
 
 -   StyleGAN2:
     -   [StyleGAN2][stylegan2-official-repository]
-    -   My [fork][stylegan2-fork] of StyleGAN2 to project **a batch** of images, using either `W(1,*)` or `W(18,*)`
     -   [Steam-StyleGAN2][stylegan2-applied-to-steam-banners]
--   [rolux/stylegan2encoder][rolux-repository]: align faces based on detected landmarks (same as FFHQ pre-processing).
--   Minimal example [Gist][minimal-example-latent-edition] to edit latent vectors.
--   Learnt [latent directions][learnt-latent-directions] for StyleGAN2
--   Colab [user interface][colab-user-interface] for projection and face modification along latent directions
--   Interesting external tools:
-    -   [ArtBreeder][artbreeder-website] by Joel Simon
+    -   My [fork][stylegan2-fork] of StyleGAN2 to project a batch of images, using any projection (original and extended)
+-   Programming resources:
+    -   [rolux/stylegan2encoder][rolux-repository]: align faces based on detected landmarks (FFHQ pre-processing)
+    -   Learnt [latent directions][learnt-latent-directions]: useful for expression transfer with StyleGAN2
+    -   Minimal [example code][minimal-example-latent-edition]: morphing and expression transfer
+-   Experimenting materials:
+    -   The website [ArtBreeder][artbreeder-website] by Joel Simon
+    -   Colab [user interface][colab-user-interface] for extended projection and expression transfer
+-   Reading materials:
     -   A blog post about editing projected images to add a [cartoon][toonify-blog-post] effect
-    -   On my Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
--   Papers loosely relevant to image projection:
-    - [Karras, T., Laine, S., Aittala, M., Hellsten, J., Lehtinen, J., & Aila, T. (2020). Analyzing and improving the image quality of stylegan. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 8110-8119).][stylegan2-paper]
-    - [Abdal, R., Qin, Y., & Wonka, P. (2019). Image2stylegan: How to embed images into the stylegan latent space?. In Proceedings of the IEEE international conference on computer vision (pp. 4432-4441).][image2stylegan-paper]
-    - [Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4401-4410).][stylegan1-paper]
-    - [Zhang, R., Isola, P., Efros, A. A., Shechtman, E., & Wang, O. (2018). The unreasonable effectiveness of deep features as a perceptual metric. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 586-595).][lpips-paper]
+    -   On the Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
+-   Papers:
+    - [Karras, Tero, Samuli Laine, and Timo Aila. *A Style-Based Generator Architecture for Generative Adversarial Networks*. CVPR 2019.][stylegan1-paper]
+    - [Abdal, Rameen, Yipeng Qin, and Peter Wonka. *Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?*. ICCV 2019.][image2stylegan-paper]
+    - [Karras, Tero, et al. *Analyzing and Improving the Image Quality of StyleGAN*. CVPR 2020.][stylegan2-paper]
 
 <!-- Definitions -->
 
