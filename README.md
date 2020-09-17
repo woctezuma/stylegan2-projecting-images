@@ -318,8 +318,8 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
     -   A blog post about editing projected images to add a [cartoon][toonify-blog-post] effect
     -   On the Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
 -   Papers:
-    - [Karras, Tero, Samuli Laine, and Timo Aila. *A Style-Based Generator Architecture for Generative Adversarial Networks*. CVPR 2019.][stylegan1-paper]
-    - [Abdal, Rameen, Yipeng Qin, and Peter Wonka. *Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?*. ICCV 2019.][image2stylegan-paper]
+    - [Karras, Tero, et al. *A Style-Based Generator Architecture for Generative Adversarial Networks*. CVPR 2019.][stylegan1-paper]
+    - [Abdal, Rameen, et al. *Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?*. ICCV 2019.][image2stylegan-paper]
     - [Karras, Tero, et al. *Analyzing and Improving the Image Quality of StyleGAN*. CVPR 2020.][stylegan2-paper]
 
 <!-- Definitions -->
