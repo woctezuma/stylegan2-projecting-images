@@ -306,11 +306,11 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
 -   StyleGAN2:
     -   [StyleGAN2][stylegan2-official-repository]
     -   [Steam-StyleGAN2][stylegan2-applied-to-steam-banners]
-    -   My [fork][stylegan2-fork] of StyleGAN2 to project a batch of images, using any projection (original and extended)
+    -   My [fork][stylegan2-fork] of StyleGAN2 to project a batch of images, using any projection (original or extended)
 -   Programming resources:
     -   [rolux/stylegan2encoder][rolux-repository]: align faces based on detected landmarks (FFHQ pre-processing)
-    -   Learnt [latent directions][learnt-latent-directions]: useful for expression transfer with StyleGAN2
-    -   Minimal [example code][minimal-example-latent-edition]: morphing and expression transfer
+    -   Learnt [latent directions][learnt-latent-directions] tailored for StyleGAN2: required for expression transfer
+    -   Minimal [example code][minimal-example-latent-edition] for morphing and expression transfer
 -   Experimenting materials:
     -   The website [ArtBreeder][artbreeder-website] by Joel Simon
     -   Colab [user interface][colab-user-interface] for extended projection and expression transfer
