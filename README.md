@@ -6,12 +6,15 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 
 To discover how to project a real image using the original StyleGAN2 implementation, run:
 -   [`stylegan2_projecting_images.ipynb`][stylegan2_projecting_images]
+[![Open In Colab][colab-badge]][stylegan2_projecting_images]
 
 To process the projection of **a batch** of images, using either `W(1,*)` (original) or `W(18,*)` (extended), run:
 -   [`stylegan2_projecting_images_with_my_fork.ipynb`][stylegan2_projecting_images_with_fork]
+[![Open In Colab][colab-badge]][stylegan2_projecting_images_with_fork]
 
 To edit latent vectors of projected images, run:
 -   [`stylegan2_editing_latent_vectors.ipynb`][stylegan2_editing_latent_vectors]
+[![Open In Colab][colab-badge]][stylegan2_editing_latent_vectors]
 
 For more information about `W(1,*)` and `W(18,*)`, please refer to the [the original paper][stylegan2-paper] (section 5 on page 7):
 
@@ -379,3 +382,5 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
 [rosasalberto-fork]: <https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x>
 [rosasalberto-sample-from-latents]: <https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x/blob/master/example_how_to_use.ipynb>
 [rosasalberto-edit-latents]: <https://github.com/rosasalberto/StyleGAN2-TensorFlow-2.x/blob/master/example_latent_changes.ipynb>
+
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
