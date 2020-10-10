@@ -307,7 +307,7 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
 ## References
 
 -   StyleGAN2:
-    -   [StyleGAN2][stylegan2-official-repository]
+    -   [StyleGAN2][stylegan2-official-repository] / [StyleGAN2-ADA][stylegan2-ada-official-repository]
     -   [Steam-StyleGAN2][stylegan2-applied-to-steam-banners]
     -   My [fork][stylegan2-fork] of StyleGAN2 to project a batch of images, using any projection (original or extended)
 -   Programming resources:
@@ -347,6 +347,7 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
 [stylegan2-fork]: <https://github.com/woctezuma/stylegan2/tree/tiled-projector>
 
 [stylegan2-official-repository]: <https://github.com/NVlabs/stylegan2>
+[stylegan2-ada-official-repository]: <https://github.com/NVlabs/stylegan2-ada>
 [stylegan2-applied-to-steam-banners]: <https://github.com/woctezuma/steam-stylegan2>
 [rolux-repository]: <https://github.com/rolux/stylegan2encoder>
 [learnt-latent-directions]: <https://github.com/a312863063/generators-with-stylegan2>
