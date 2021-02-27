@@ -317,6 +317,7 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
 -   Experimenting materials:
     -   The website [ArtBreeder][artbreeder-website] by Joel Simon
     -   Colab [user interface][colab-user-interface] for extended projection and expression transfer
+    -   A fast projector called [`encoder4editing`][repo-encoder4editing] and released in 2021 [![Open In Colab][colab-badge]][colab-encoder4editing]
 -   Reading materials:
     -   A blog post about editing projected images to add a [cartoon][toonify-blog-post] effect
     -   On the Wiki: [GIF editing][wiki-gif-editing] with [MoviePy][moviepy] and [Gifsicle][gifsicle]
@@ -371,6 +372,8 @@ Results are shown [on the Wiki][wiki-application-expression-transfer].
 [wiki-application-style-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Style-Transfer>
 [wiki-application-expression-transfer]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/Expression-Transfer>
 
+[repo-encoder4editing]: <https://github.com/omertov/encoder4editing>
+[colab-encoder4editing]: <http://colab.research.google.com/github/omertov/encoder4editing/blob/main/notebooks/inference_playground.ipynb>
 [wiki-gif-editing]: <https://github.com/woctezuma/stylegan2-projecting-images/wiki/README>
 [moviepy]: <https://github.com/Zulko/moviepy>
 [gifsicle]: <https://github.com/kohler/gifsicle>
